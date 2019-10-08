@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <stroke android:color="#1A0101"
+                android:width="1dp"/>
+            <size android:width="40dp" android:height="50dp"/>
+            <corners android:radius="20dp"/>
+            <solid android:color="#41413C"/>
+        </shape>
+    </item>
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <stroke android:color="#00BCD4"
+                android:width="1dp"/>
+            <size android:width="40dp" android:height="50dp"/>
+            <corners android:radius="20dp"/>
+            <solid android:color="#15D80E"/>
+        </shape>
+    </item>
+</selector>
